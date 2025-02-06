@@ -1,0 +1,174 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.search-box .form-control {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 30px 0 0 30px;
+}
+
+.search-box .btn {
+    padding: 0.8rem 2rem;
+    border-radius: 0 30px 30px 0;
+    font-weight: 600;
+}
+
+.quick-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.badge:hover {
+    background-color: #e9ecef !important;
+    transform: translateY(-2px);
+}
+
+/* Features Section */
+.features-section {
+    background-color: #ffffff;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #0d6efd;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.feature-card p {
+    color: #6c757d;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 3rem 0;
+    }
+    
+    .hero-image {
+        margin-top: 2rem;
+    }
+}
+/* .signup{
+    display:flex;
+    justify-content: center;
+} */
+.signup-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .login-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        h3 {
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: none;
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #ffffff, #f1f5f9);
+            transition: transform 0.2s, box-shadow 0.2s;
+            height:100%;
+          }
+          .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+          }
+          .card-title {
+            color: #1f2937;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+          }
+          .card-text {
+            color: #374151;
+            font-size: 0.95rem;
+          }
+          .btn-apply {
+            background-color: #1d4ed8;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+          }
+          .btn-apply:hover {
+            background-color: #2563eb;
+          }
