@@ -36,10 +36,24 @@
 - **Additional Tools:** Method Override, EJS Mate Template Engine
 
 ---
+## 📁Project Structure
+JobConnect/
 
-## 🏗️ Installation
+├── models/        # Mongoose schemas  
+├── public/        # Static files  
+├── views/         # EJS templates  
+├── app.js         # Main server file  
+└── README.md      # Documentation 
 
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/Himanshu-00007/jobconnect.git
-   cd jobconnect
+
+## 📧Contact
+Email:himanshupandey2003@gmail.com
+
+
+GitHub:Himanshu-00007
+
+
+
+
+
+   
